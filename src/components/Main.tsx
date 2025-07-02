@@ -15,15 +15,6 @@ const Main = () => {
                 {imageList.map((img, idx)=>{
                     return <img className="col-sm-4 p-1" key={idx} src={img} alt={`Friend ${1 +idx}`}></img>
                 }) }
-                {/*<img className="col-sm-4 p-1" src={img1} alt="Friend"/>*/}
-                {/*<img className="col-sm-4 p-1" src={img2} alt="Friend"/>*/}
-                {/*<img className="col-sm-4 p-1" src="../assets/friend1.jpg" alt="Friend"/>*/}
-                {/*<img className="col-sm-4 p-1" src="../assets/friend1.jpg" alt="Friend"/>*/}
-                {/*<img className="col-sm-4 p-1" src="../assets/friend1.jpg" alt="Friend"/>*/}
-                {/*<img className="col-sm-4 p-1" src="../assets/friend6.jpg" alt="Friend"/>*/}
-                {/*<img className="bottomLeft col-sm-4 p-1" src="../assets/friend7.jpg" alt="Friend"/>*/}
-                {/*<img className="col-sm-4 p-1" src="../assets/friend8.jpg" alt="Friend"/>*/}
-                {/*<img className="bottomRight col-sm-4 p-1" src="../assets/friend9.jpg" alt="Friend"/>*/}
             </section>
             <p className="farGalaxy">It is a period of civil war.
                 Rebel spaceships, striking

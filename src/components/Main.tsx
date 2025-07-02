@@ -1,4 +1,5 @@
 import imgMain from "../assets/main.jpg";
+import "./Main.css";
 
 const images: Record<string, { default: string}> = import.meta.glob("../assets/friend*.jpg", { eager: true });
 const imageList: string[] = Object.values(images).map(obj => obj.default);
